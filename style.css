@@ -91,7 +91,7 @@ header nav a:hover { background: rgba(255,255,255,.1); color: #fff; text-decorat
 .btn:hover { text-decoration: none; transform: translateY(-1px); box-shadow: var(--shadow-hover); }
 .btn-ghost { background: transparent; color: var(--accent); border-color: var(--line); }
 .btn-ghost:hover { border-color: var(--accent); }
-@media (prefers-color-scheme: dark) { .btn { color: #0b1320; } }
+@media (prefers-color-scheme: dark) { .btn:not(.btn-ghost) { color: #0b1320; } }
 
 /* Sections */
 section.container { padding-top: 56px; padding-bottom: 8px; }
