@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guido Rocchietti - Researcher</title>
+    <title>Guido Rocchietti · Researcher in AI &amp; NLP</title>
+    <meta name="description" content="Guido Rocchietti, PostDoc researcher at BIFOLD (TU Berlin). Large Language Models, Conversational Search, Information Retrieval, Data Integration.">
+    <meta name="author" content="Guido Rocchietti">
+    <meta property="og:title" content="Guido Rocchietti · Researcher in AI &amp; NLP">
+    <meta property="og:description" content="PostDoc at BIFOLD, TU Berlin. LLMs, NLP, Information Retrieval, Data Integration, Time Series.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://giuid.github.io/">
+    <meta property="og:image" content="https://giuid.github.io/images/profile.png">
+    <meta name="theme-color" content="#1f2a3a">
+    <link rel="icon" href="images/profile.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Guido Rocchietti</h1>
-            <nav>
+        <div class="container bar">
+            <a class="brand" href="#top">Guido Rocchietti</a>
+            <nav aria-label="Main">
                 <ul>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#research">Research</a></li>
                     <li><a href="#publications">Publications</a></li>
                     <li><a href="#software">Software</a></li>
@@ -25,13 +33,25 @@
         </div>
     </header>
 
-    <section id="about" class="container">
-        <div class="profile">
-            <img src="images/profile.png" alt="Guido Rocchietti" class="profile-img">
-            <div class="profile-info">
-                <h2>About Me</h2>
-                <p>
-                    I am a PostDoc Researcher at the Data Integration and Data Preparation (D2IP) group within BIFOLD (Technische Universität Berlin), specializing in Information Integration and Data Cleansing. I hold a Ph.D. in AI for Society from the University of Pisa and ISTI-CNR, with a thesis on efficient methods for conversational search and summarization. My research interests include Large Language Models (LLMs), Conversational Search, Information Retrieval, Data Integration, and Text Summarization.
+    <main id="top">
+    <section class="hero">
+        <div class="container hero-grid">
+            <img src="images/profile.png" alt="Portrait of Guido Rocchietti" class="profile-img">
+            <div>
+                <p class="eyebrow">PostDoc Researcher · BIFOLD, TU Berlin</p>
+                <h1>Guido Rocchietti</h1>
+                <p class="lead">
+                    I work in the Data Integration and Data Preparation (D2IP) group, on Information Integration and Data Cleansing.
+                    My research centres on Natural Language Processing, Large Language Models and Information Retrieval,
+                    and extends to time-series modelling, in particular for medical data.
+                    I hold a Ph.D. in AI for Society from the University of Pisa and ISTI-CNR, with a thesis on efficient methods
+                    for conversational search and summarization.
+                </p>
+                <p class="chips"><span class="chip chip-outline">Large Language Models</span><span class="chip chip-outline">Conversational Search</span><span class="chip chip-outline">Information Retrieval</span><span class="chip chip-outline">Data Integration</span><span class="chip chip-outline">Text Summarization</span><span class="chip chip-outline">Time Series</span></p>
+                <p class="cta">
+                    <a class="btn" href="#publications">Publications</a>
+                    <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=gpwgJZkAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+                    <a class="btn btn-ghost" href="https://github.com/giuid">GitHub</a>
                 </p>
             </div>
         </div>
@@ -39,99 +59,174 @@
 
     <section id="research" class="container">
         <h2>Research</h2>
-        <p>
-            My research focuses on Artificial Intelligence and Natural Language Processing (NLP). I was involved in the following projects:
-        </p>
-        <ul>
-            <li><a href="https://efraproject.eu/"><b>EFRA</b></a> (Food Risk Analytics)</li>
-            <li><a href="https://atrium-research.eu/"><b>ATRIUM</b></a> (Digital Humanities)</li>
-            <li><a href="https://fondazione-fair.it/"><b>FAIR</b></a> (Future AI Research)</li>
-        </ul>
-        <h3>Tech Stack</h3>
-        <p>
-            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-            <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-            <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
-            <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Transformers-yellow?style=for-the-badge" alt="Hugging Face">
-            <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-        </p>
+        <p class="section-intro">My research focuses on Artificial Intelligence and Natural Language Processing. I was involved in the following projects:</p>
+        <div class="cards">
+            <a class="card" href="https://efraproject.eu/">
+                <span class="card-title">EFRA</span>
+                <span class="card-text">Food Risk Analytics</span>
+            </a>
+            <a class="card" href="https://atrium-research.eu/">
+                <span class="card-title">ATRIUM</span>
+                <span class="card-text">Digital Humanities</span>
+            </a>
+            <a class="card" href="https://fondazione-fair.it/">
+                <span class="card-title">FAIR</span>
+                <span class="card-text">Future AI Research</span>
+            </a>
+        </div>
+        <h3>Tech stack</h3>
+        <p class="chips"><span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">Hugging Face Transformers</span><span class="chip">pandas</span></p>
     </section>
 
     <section id="publications" class="container">
         <h2>Publications</h2>
-        <h3>PhD Thesis</h3>
-        <ul>
-            <li>
-                <p><strong>Efficient and Effective Methods for Conversational Search and Summarization</strong> (2025). <a href="https://tesidottorato.depositolegale.it/bitstream/20.500.14242/219609/1/PhD_Thesis_pdfa_ROCCHIETTI.pdf">Link to Thesis</a></p>
+        <ul class="pubs">
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2026</span><span class="tag tag-conference">Conference</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">Quantifying Retriever-Generator Alignment in RAG with Local Explanations</p>
+                    <p class="pub-authors">K. Randl, G. Rocchietti, A. Henriksson, Z. Abedjan, T. Lindgren, J. Pavlopoulos</p>
+                    <p class="pub-venue"><em>Findings of ACL: EMNLP 2026</em> <a class="btn-sm" href="https://aclanthology.org/2026.findings-emnlp.2433.pdf">PDF</a></p>
+                </div>
             </li>
-        </ul>
-
-        <h3>Peer-reviewed Conference Papers</h3>
-        <ul>
-            <li>
-                <p>Muntean, C. I., Nardini, F. M., Perego, R., Rocchietti, G., & Rulli, C. (2025). <strong>Efficient Conversational Search via Topical Locality in Dense Retrieval (short paper)</strong>. In <em>SIGIR '25</em>. <a href="https://doi.org/10.1145/3726302.3730186">DOI:10.1145/3726302.3730186</a></p>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2025</span><span class="tag tag-conference">Conference</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">FoodSafeSum: Enabling Natural Language Processing Applications for Food Safety Document Summarization and Analysis</p>
+                    <p class="pub-authors">J. Bakagianni, K. Randl, G. Rocchietti, C. Rulli, F. M. Nardini, S. Trani, A. Henriksson, A. Romanova, J. Pavlopoulos</p>
+                    <p class="pub-venue"><em>Findings of ACL: EMNLP 2025</em> <a class="btn-sm" href="https://aclanthology.org/2025.findings-emnlp.911.pdf">PDF</a></p>
+                </div>
             </li>
-            <li>
-                <p>Galimzhanova, E., Muntean, C. I., Nardini, F. M., Perego, R., & Rocchietti, G. (2023). <strong>Rewriting Conversational Utterances with Instructed Large Language Models</strong>. In <em>2023 IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT)</em>. <a href="https://doi.org/10.1109/WI-IAT59888.2023.00014">DOI:10.1109/WI-IAT59888.2023.00014</a></p>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2025</span><span class="tag tag-thesis">Thesis</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">Efficient and Effective Methods for Conversational Search and Summarization</p>
+                    <p class="pub-authors">Guido Rocchietti</p>
+                    <p class="pub-venue"><em>PhD Thesis, University of Pisa &amp; ISTI-CNR</em> <a class="btn-sm" href="https://tesidottorato.depositolegale.it/bitstream/20.500.14242/219609/1/PhD_Thesis_pdfa_ROCCHIETTI.pdf">PDF</a></p>
+                </div>
             </li>
-            <li>
-                <p>Rocchietti, G., Frieder, O., Muntean, C. I., Nardini, F. M., & Perego, R. (2023). <strong>Commonsense Injection in Conversational Systems: An Adaptable Framework for Query Expansion</strong>. In <em>2023 IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT)</em>. <a href="https://doi.org/10.1109/WI-IAT59888.2023.00013">DOI:10.1109/WI-IAT59888.2023.00013</a></p>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2025</span><span class="tag tag-journal">Journal</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">ChatGPT Versus Modest Large Language Models: An Extensive Study on Benefits and Drawbacks for Conversational Search</p>
+                    <p class="pub-authors">G. Rocchietti, C. Rulli, F. M. Nardini, C. I. Muntean, R. Perego, O. Frieder</p>
+                    <p class="pub-venue"><em>IEEE Access, 13</em> <a class="btn-sm" href="https://doi.org/10.1109/ACCESS.2025.3529741">DOI</a></p>
+                </div>
             </li>
-            <li>
-                <p>Rocchietti, G., Achena, F., Marziano, G., Salaris, S., & Lenci, A. (2021). <strong>FANCY: A Diagnostic Data-Set for NLI Models</strong>. In <em>Eighth Italian Conference on Computational Linguistics CliC-It 2021</em>. <a href="https://doi.org/10.4000/books.aaccademia.10804">DOI:10.4000/books.aaccademia.10804</a></p>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2025</span><span class="tag tag-conference">Conference</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">Efficient Conversational Search via Topical Locality in Dense Retrieval (short paper)</p>
+                    <p class="pub-authors">C. I. Muntean, F. M. Nardini, R. Perego, G. Rocchietti, C. Rulli</p>
+                    <p class="pub-venue"><em>SIGIR &#x27;25</em> <a class="btn-sm" href="https://doi.org/10.1145/3726302.3730186">DOI</a></p>
+                </div>
             </li>
-            <li>
-                <p>Rocchietti, G., Pugliese, C., Rangel, G. S., & Carvalho, J. T. (2024). <strong>From Geolocated Images to Urban Region Identification and Description: a Large Language Model Approach (short paper)</strong>. In <em>Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems, SIGSPATIAL '24</em>. <a href="https://doi.org/10.1145/3678717.3691317">DOI:10.1145/3678717.3691317</a></p>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2025</span><span class="tag tag-preprint">Preprint</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">Human Mobility Datasets Enriched With Contextual and Social Dimensions</p>
+                    <p class="pub-authors">C. Pugliese, F. Lettich, G. Rocchietti, C. Renso, F. Pinelli</p>
+                    <p class="pub-venue"><em>arXiv:2510.02333</em> <a class="btn-sm" href="https://arxiv.org/abs/2510.02333">arXiv</a></p>
+                </div>
             </li>
-             <li>
-                <p>Rocchietti, G., Rulli, C., Randl, K., Muntean, C. I., Nardini, F. M., Perego, R., Trani, S., Karvounis, M., & Janostik, J. (2024). <strong>LongDoc Summarization using Instruction-tuned Large Language Models for Food Safety Regulations</strong>. In <em>IIR2024: 14th Italian Information Retrieval Workshop</em>.</p>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2024</span><span class="tag tag-conference">Conference</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">From Geolocated Images to Urban Region Identification and Description: a Large Language Model Approach (short paper)</p>
+                    <p class="pub-authors">G. Rocchietti, C. Pugliese, G. S. Rangel, J. T. Carvalho</p>
+                    <p class="pub-venue"><em>ACM SIGSPATIAL &#x27;24</em> <a class="btn-sm" href="https://doi.org/10.1145/3678717.3691317">DOI</a></p>
+                </div>
             </li>
-        </ul>
-
-        <h3>Peer-reviewed Journal Articles</h3>
-        <ul>
-            <li>
-                <p>Rocchietti, G., Rulli, C., Nardini, F. M., Muntean, C. I., Perego, R., & Frieder, O. (2025). <strong>ChatGPT Versus Modest Large Language Models: An Extensive Study on Benefits and Drawbacks for Conversational Search</strong>. <em>IEEE Access, 13</em>. <a href="https://doi.org/10.1109/ACCESS.2025.3529741">DOI:10.1109/ACCESS.2025.3529741</a></p>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2024</span><span class="tag tag-workshop">Workshop</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">LongDoc Summarization using Instruction-tuned Large Language Models for Food Safety Regulations</p>
+                    <p class="pub-authors">G. Rocchietti, C. Rulli, K. Randl, C. I. Muntean, F. M. Nardini, R. Perego, S. Trani, M. Karvounis, J. Janostik</p>
+                    <p class="pub-venue"><em>IIR 2024, 14th Italian Information Retrieval Workshop</em></p>
+                </div>
             </li>
-        </ul>
-
-        <h3>Non-peer-reviewed Articles</h3>
-        <ul>
-            <li>
-                <p>Rocchietti, G., Muntean, C. I., & Nardini, F. M. (2024). <strong>Enhancing Conversational Search with Large Language Models</strong>. <em>ERCIM News, 136</em>.</p>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2024</span><span class="tag tag-article">Article</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">Enhancing Conversational Search with Large Language Models</p>
+                    <p class="pub-authors">G. Rocchietti, C. I. Muntean, F. M. Nardini</p>
+                    <p class="pub-venue"><em>ERCIM News, 136</em></p>
+                </div>
+            </li>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2023</span><span class="tag tag-conference">Conference</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">Rewriting Conversational Utterances with Instructed Large Language Models</p>
+                    <p class="pub-authors">E. Galimzhanova, C. I. Muntean, F. M. Nardini, R. Perego, G. Rocchietti</p>
+                    <p class="pub-venue"><em>IEEE/WIC WI-IAT 2023</em> <a class="btn-sm" href="https://doi.org/10.1109/WI-IAT59888.2023.00014">DOI</a></p>
+                </div>
+            </li>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2023</span><span class="tag tag-conference">Conference</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">Commonsense Injection in Conversational Systems: An Adaptable Framework for Query Expansion</p>
+                    <p class="pub-authors">G. Rocchietti, O. Frieder, C. I. Muntean, F. M. Nardini, R. Perego</p>
+                    <p class="pub-venue"><em>IEEE/WIC WI-IAT 2023</em> <a class="btn-sm" href="https://doi.org/10.1109/WI-IAT59888.2023.00013">DOI</a></p>
+                </div>
+            </li>
+            <li class="pub">
+                <div class="pub-meta"><span class="year">2021</span><span class="tag tag-conference">Conference</span></div>
+                <div class="pub-body">
+                    <p class="pub-title">FANCY: A Diagnostic Data-Set for NLI Models</p>
+                    <p class="pub-authors">G. Rocchietti, F. Achena, G. Marziano, S. Salaris, A. Lenci</p>
+                    <p class="pub-venue"><em>CLiC-it 2021, Eighth Italian Conference on Computational Linguistics</em> <a class="btn-sm" href="https://doi.org/10.4000/books.aaccademia.10804">DOI</a></p>
+                </div>
             </li>
         </ul>
     </section>
 
     <section id="software" class="container">
-        <h2>Featured Research Software</h2>
-        <ul>
-            <li><a href="https://github.com/giuid/efficient_retrieval">efficient_retrieval</a>: Algorithms supporting efficient conversational retrieval.</li>
-            <li><a href="https://github.com/giuid/llms4queryrewriting">llms4queryrewriting</a>: Extensive study on the benefits and drawbacks of using LLMs for query rewriting.</li>
-            <li><a href="https://github.com/giuid/UrbanRegionDescription">UrbanRegionDescription</a>: NLP methodology for the automatic identification of urban regions from geolocated images.</li>
-            <li><a href="https://github.com/giuid/conv-common-sense">conv-common-sense</a>: Adaptable framework for query expansion using commonsense knowledge.</li>
-            <li><a href="https://github.com/giuid/FANCY">FANCY</a>: Diagnostic dataset for evaluating Natural Language Inference (NLI) models.</li>
-        </ul>
+        <h2>Research software</h2>
+        <div class="cards">
+            <a class="card" href="https://github.com/giuid/efficient_retrieval">
+                <span class="card-title">efficient_retrieval</span>
+                <span class="card-text">Algorithms supporting efficient conversational retrieval.</span>
+                <span class="card-foot">SIGIR '25</span>
+            </a>
+            <a class="card" href="https://github.com/giuid/llms4queryrewriting">
+                <span class="card-title">llms4queryrewriting</span>
+                <span class="card-text">Extensive study on the benefits and drawbacks of using LLMs for query rewriting.</span>
+                <span class="card-foot">IEEE Access 2025</span>
+            </a>
+            <a class="card" href="https://github.com/giuid/UrbanRegionDescription">
+                <span class="card-title">UrbanRegionDescription</span>
+                <span class="card-text">NLP methodology for the automatic identification of urban regions from geolocated images.</span>
+                <span class="card-foot">SIGSPATIAL '24</span>
+            </a>
+            <a class="card" href="https://github.com/giuid/conv-common-sense">
+                <span class="card-title">conv-common-sense</span>
+                <span class="card-text">Adaptable framework for query expansion using commonsense knowledge.</span>
+                <span class="card-foot">WI-IAT 2023</span>
+            </a>
+            <a class="card" href="https://github.com/giuid/FANCY">
+                <span class="card-title">FANCY</span>
+                <span class="card-text">Diagnostic dataset for evaluating Natural Language Inference (NLI) models.</span>
+                <span class="card-foot">CLiC-it 2021</span>
+            </a>
+        </div>
     </section>
 
     <section id="contact" class="container">
         <h2>Contact</h2>
-        <p>
-            You can reach me via email at <a href="mailto:guido.rocchietti@tu-berlin.de">guido.rocchietti@tu-berlin.de</a> or <a href="mailto:guido.rocchietti@gmail.com">guido.rocchietti@gmail.com</a>.
+        <p class="section-intro">
+            Write to <a href="mailto:guido.rocchietti@tu-berlin.de">guido.rocchietti@tu-berlin.de</a>
+            or <a href="mailto:guido.rocchietti@gmail.com">guido.rocchietti@gmail.com</a>.
         </p>
-        <p>
-            You can also find me on:
+        <p class="cta">
+            <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=gpwgJZkAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/guido-rocchietti/">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/giuid">GitHub</a>
         </p>
-        <ul>
-            <li><a href="https://scholar.google.com/citations?user=gpwgJZkAAAAJ&hl=en&oi=ao">Google Scholar</a></li>
-            <li><a href="https://www.linkedin.com/in/guido-rocchietti/">LinkedIn</a></li>
-        </ul>
     </section>
+    </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2026 Guido Rocchietti</p>
-        </div>
+        <div class="container"><p>&copy; 2026 Guido Rocchietti</p></div>
     </footer>
 </body>
 </html>

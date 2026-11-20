@@ -9,9 +9,9 @@ Previously, I obtained my **Ph.D. in AI for Society** (Evaluation: Excellent) fr
 ---
 
 ### 🔭 Current Focus
-* [cite_start]**Research Areas:** Large Language Models (LLMs), Conversational Search, Information Retrieval, Data Integration, Text Summarization[cite: 23].
-* [cite_start]**Current Lab:** D2IP-BIFOLD, TU Berlin[cite: 14, 16].
-* [cite_start]**Projects:** EFRA (Food Risk Analytics) [cite: 75][cite_start], ATRIUM (Digital Humanities) [cite: 100][cite_start], FAIR (Future AI Research)[cite: 87].
+* **Research Areas:** Large Language Models (LLMs), Conversational Search, Information Retrieval, Data Integration, Text Summarization.
+* **Current Lab:** D2IP-BIFOLD, TU Berlin.
+* **Projects:** EFRA (Food Risk Analytics), ATRIUM (Digital Humanities), FAIR (Future AI Research).
 
 ---
 
@@ -30,41 +30,41 @@ Previously, I obtained my **Ph.D. in AI for Society** (Evaluation: Excellent) fr
 Here is a selection of software developed for my recent publications:
 
 * **[efficient_retrieval](https://github.com/giuid/efficient_retrieval)**
-    * [cite_start]*Paper:* "Efficient Conversational Search via Topical Locality in Dense Retrieval" (SIGIR '25)[cite: 247].
+    * *Paper:* "Efficient Conversational Search via Topical Locality in Dense Retrieval" (SIGIR '25).
     * *Description:* Algorithms supporting efficient conversational retrieval.
 
 * **[llms4queryrewriting](https://github.com/giuid/llms4queryrewriting)**
-    * [cite_start]*Paper:* "ChatGPT Versus Modest Large Language Models" (IEEE Access, 2025)[cite: 259].
+    * *Paper:* "ChatGPT Versus Modest Large Language Models" (IEEE Access, 2025).
     * *Description:* Extensive study on the benefits and drawbacks of using LLMs for query rewriting.
 
 * **[UrbanRegionDescription](https://github.com/giuid/UrbanRegionDescription)**
-    * [cite_start]*Paper:* "From Geolocated Images to Urban Region Identification and Description" (SIGSPATIAL '24)[cite: 252].
+    * *Paper:* "From Geolocated Images to Urban Region Identification and Description" (SIGSPATIAL '24).
     * *Description:* NLP methodology for the automatic identification of urban regions from geolocated images.
 
 * **[conv-common-sense](https://github.com/giuid/conv-common-sense)**
-    * [cite_start]*Paper:* "Commonsense Injection in Conversational Systems" (WI-IAT 2023)[cite: 269].
+    * *Paper:* "Commonsense Injection in Conversational Systems" (WI-IAT 2023).
     * *Description:* Adaptable framework for query expansion using commonsense knowledge.
 
 * **[FANCY](https://github.com/giuid/FANCY)**
-    * [cite_start]*Paper:* "FANCY: A Diagnostic Data-Set for NLI Models" (CliC-It 2021)[cite: 273].
+    * *Paper:* "FANCY: A Diagnostic Data-Set for NLI Models" (CliC-It 2021).
     * *Description:* Diagnostic dataset for evaluating Natural Language Inference (NLI) models.
 
 ---
 
 ### 📄 Selected Publications
 
-1.  [cite_start]**Efficient and Effective Methods for Conversational Search and Summarization** (PhD Thesis, 2025)[cite: 23].
-2.  [cite_start]**ChatGPT Versus Modest Large Language Models...** - *IEEE Access, 2025* (Q1 Journal)[cite: 164].
-3.  [cite_start]**Rewriting Conversational Utterances with Instructed Large Language Models** - *WI-IAT 2023*[cite: 136].
-4.  [cite_start]**LongDoc Summarization using Instruction-tuned LLMs...** - *IIR 2024*[cite: 158].
+1.  **Efficient and Effective Methods for Conversational Search and Summarization** (PhD Thesis, 2025).
+2.  **ChatGPT Versus Modest Large Language Models...** - *IEEE Access, 2025* (Q1 Journal).
+3.  **Rewriting Conversational Utterances with Instructed Large Language Models** - *WI-IAT 2023*.
+4.  **LongDoc Summarization using Instruction-tuned LLMs...** - *IIR 2024*.
 
 ---
 
 ### 📫 Connect with me
 
-* [cite_start]📧 **Email:** guido.rocchietti@tu-berlin.de / guido.rocchietti@gmail.com [cite: 2, 5]
-* 🎓 **Google Scholar:** [Insert Link Here]
-* 💼 **LinkedIn:** [Insert Link Here]
+* 📧 **Email:** guido.rocchietti@tu-berlin.de / guido.rocchietti@gmail.com
+* 🎓 **Google Scholar:** https://scholar.google.com/citations?user=gpwgJZkAAAAJ&hl=en
+* 💼 **LinkedIn:** https://www.linkedin.com/in/guido-rocchietti/
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=giuid&show_icons=true&theme=minimal" alt="Guido's GitHub Stats" />
