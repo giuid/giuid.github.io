@@ -159,3 +159,10 @@ footer p { margin: 0; }
     html { scroll-padding-top: 110px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+.card-code {
+    display: block; margin-top: 4px; padding: 6px 10px; border-radius: 8px;
+    background: var(--accent-soft); color: var(--accent);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .82rem;
+    overflow-x: auto; white-space: nowrap;
+}
